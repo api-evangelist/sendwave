@@ -1,8 +1,28 @@
 aid: sendwave
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendwave.png
 name: SendWave
-description: 'SendWave is a company surfaced as a portfolio company of initialized-capital, partech, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Sendwave is an international money-transfer service operated by Zepz (the
+  fintech group behind WorldRemit) that lets people send money abroad directly
+  from a mobile app, with a focus on low or no transfer fees and fast delivery
+  to recipients across Africa, Asia and Latin America. Funds can be sent to
+  mobile-money wallets, bank accounts and cash pickup in supported corridors.
+  Sendwave is a consumer-facing app (iOS and Android) and is regulated as a
+  money transmitter in the jurisdictions where it operates (NMLS No. 1179663).
+  As of this profile it publishes no public developer API, SDKs, or developer
+  portal; enrichment therefore captures its public identity, security posture,
+  and support surface only.
 url: https://raw.githubusercontent.com/api-evangelist/sendwave/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Money Transfer
+- Remittances
+- Payments
+- Mobile
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://sendwave.com/
+- type: Support
+  url: https://www.sendwave.com/en/support
+- type: Blog
+  url: https://www.sendwave.com/en/blog
+- type: PrivacyPolicy
+  url: https://www.sendwave.com/en/privacy-policy
+- type: TermsOfService
+  url: https://www.sendwave.com/en/terms-and-conditions
+- type: DomainSecurity
+  url: security/sendwave-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
